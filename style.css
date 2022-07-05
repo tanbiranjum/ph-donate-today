@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cover-container {
+  position: relative;
+  height: 80vh;
+}
+
+.cover-container {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(32, 32, 32, 0.527),
+      rgba(19, 19, 19, 0.712)
+    ),
+    url('./assets/donation7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-container-content {
+  width: 50%;
+  color: #ffff;
+  text-align: center;
+}
+
+.cover-container-heading {
+  font-size: 65px;
+}
+
+.cover-container-text {
+  padding: 16px 0;
+}
+
+/* Reusable code */
+
+.btn {
+  border: none;
+  padding: 15px 25px;
+  background-color: #ff5959;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.font-size-regular {
+  font-size: 18px;
+}
+
+.donation-plan {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.donation-plan-heading {
+  padding-bottom: 16px;
+  font-size: 45px;
+}
+
+.donation-plan-text {
+  padding-bottom: 32px;
+}
+
+.donation-plan-box-container {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.donation-plan-box {
+  flex: 1;
+  text-align: center;
+  color: #ff5959;
+  background-color: #fafafa;
+  padding: 32px 0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.donation-plan-box--active {
+  border: 1px solid #ff5959;
+  background-color: #ffeeee;
+}
+
+.donation-plan-input-field {
+  margin: 32px 0;
+}
+
+.donation-plan-input {
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  width: 100%;
+  padding: 8px;
+  font-weight: 500;
+  color: #b3b3b3;
+}
+
+.donation-plan-input:focus {
+  outline: none;
+}
+
+.donation-plan-input::placeholder {
+  text-align: center;
+}
