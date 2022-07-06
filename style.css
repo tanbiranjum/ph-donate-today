@@ -166,6 +166,10 @@ img {
   gap: 32px;
 }
 
+.plan-choice-card-container > * {
+  flex-basis: 100%;
+}
+
 .plan-choice-card {
   padding: 48px 32px;
   display: flex;
