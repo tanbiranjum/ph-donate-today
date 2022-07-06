@@ -54,7 +54,7 @@ img {
   padding: 15px 25px;
   background-color: #ff5959;
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   border-radius: 4px;
   cursor: pointer;
@@ -179,21 +179,42 @@ img {
   align-self: flex-start;
 }
 
+.text-color-secondary {
+  color: #707070;
+}
+
+#quote-block {
+  background-image: url('./assets/Simple\ Shiny.svg');
+}
+
 .quote-container {
   margin: 0 auto;
   width: 50%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 20px;
+  padding: 64px 0;
+  color: white;
 }
 
 .quote-container > * {
   flex-basis: 100%;
 }
 
+.quote-name {
+  padding-top: 16px;
+}
+
+.quote-designation {
+}
+
 .quote {
   color: #ff5959;
-  font-size: 24px;
+  /* font-size: 24px; */
+}
+
+.quote-text {
+  line-height: 1.5;
 }
 
 .contact-form {
