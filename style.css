@@ -12,6 +12,46 @@ img {
   max-width: 100%;
 }
 
+/* REUSABLE CODE */
+.btn {
+  border: none;
+  padding: 15px 25px;
+  background-color: #ff5959;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.font-size-regular {
+  font-size: 18px;
+}
+
+.heading-2 {
+  font-size: 45px;
+}
+
+.heading-3 {
+  font-size: 36px;
+}
+
+.heading-4 {
+  font-size: 24px;
+}
+
+.text-block {
+  text-align: center;
+  width: 70%;
+  margin: -32px auto 0 auto;
+  padding-bottom: 32px;
+}
+
+.text-color-secondary {
+  color: #707070;
+}
+
+/* COVER SECTION */
 .cover-container {
   position: relative;
   height: 80vh;
@@ -47,35 +87,7 @@ img {
   padding: 16px 0;
 }
 
-/* Reusable code */
-
-.btn {
-  border: none;
-  padding: 15px 25px;
-  background-color: #ff5959;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.font-size-regular {
-  font-size: 18px;
-}
-
-.heading-2 {
-  font-size: 45px;
-}
-
-.heading-3 {
-  font-size: 36px;
-}
-
-.heading-4 {
-  font-size: 24px;
-}
-
+/* DONATION PLAN SECTION */
 .donation-plan {
   width: 50%;
   margin: 0 auto;
@@ -137,17 +149,11 @@ img {
   color: #b3b3b3;
 }
 
+/* CHOICE PLAN SECTION */
 .plan-choice {
   width: 80%;
   margin: 0 auto;
   padding: 64px 0;
-}
-
-.text-block {
-  text-align: center;
-  width: 70%;
-  margin: -32px auto 0 auto;
-  padding-bottom: 32px;
 }
 
 .plan-choice-card-container {
@@ -179,10 +185,7 @@ img {
   align-self: flex-start;
 }
 
-.text-color-secondary {
-  color: #707070;
-}
-
+/* QUOTE SECTION */
 #quote-block {
   background-image: url('./assets/Simple\ Shiny.svg');
 }
@@ -205,18 +208,15 @@ img {
   padding-top: 16px;
 }
 
-.quote-designation {
-}
-
 .quote {
   color: #ff5959;
-  /* font-size: 24px; */
 }
 
 .quote-text {
   line-height: 1.5;
 }
 
+/* CONTACT FORM SECTION */
 .contact-form {
   padding: 64px 0;
   width: 60%;
@@ -252,6 +252,7 @@ img {
   border-bottom-left-radius: 0;
 }
 
+/* FOOTER SECTION */
 #footer {
   padding: 32px;
   background-color: #0b0d17;
