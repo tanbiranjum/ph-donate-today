@@ -156,6 +156,10 @@ img {
   padding: 64px 0;
 }
 
+.plan-choice-text {
+  padding-top: 16px;
+}
+
 .plan-choice-card-container {
   display: flex;
   list-style: none;
@@ -221,6 +225,10 @@ img {
   padding: 64px 0;
   width: 60%;
   margin: 0 auto;
+}
+
+.contact-form-text {
+  padding-top: 16px;
 }
 
 .contact-form-input-container {
